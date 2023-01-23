@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    margin-top: 50px;
+    height: 59px;
+}
+.logo{
+    font-family: 'Righteous', cursive;
+    float: left;
+    font-size: 24px;
+
+}
+.navs{
+    text-align: center;
+    display: inline;
+    margin-left: 179px;
+}
+.nav{
+    font-family: 'Nanito sans';
+    font-family: 'Roboto', sans-serif;
+    margin: 0 38px;
+}
+.nav:hover{
+    color: orange;
+}
+.reg{
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    border: 1px solid black;
+    padding: 18px; 46px;
+}
+a{
+    text-decoration: none;
+    black: #000;
+}
+.title_block{font-family: 'Righteous', cursive;
+    font-size: 62px;
+    text-transform: uppercase;
+    max-width: 460px;
+}
+.text{
+    display: block;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    border-left: 2px solid;
+    padding-left: 16px;
+}
+.btn{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black;
+    padding: 18px; 46px;
+    margin-top: 40px;
+
+}
+.hover_btn{
+    background: orange;
+    border: 1px solid orange;
+    color: white;
+}
+.welcome_block{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 130px;
+}
+.men{
+    height: 440px;
+    margin: 0 auto;
+
+}

@@ -36,13 +36,14 @@ header{
     font-family: 'Roboto', sans-serif;
     float: right;
     border: 1px solid black;
-    padding: 18px; 46px;
+    padding: 18px 46px;
 }
 a{
     text-decoration: none;
     black: #000;
 }
-.title_block{font-family: 'Righteous', cursive;
+.title_block{
+    font-family: 'Righteous', cursive;
     font-size: 62px;
     text-transform: uppercase;
     max-width: 460px;
@@ -59,7 +60,7 @@ a{
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     border: 1px solid black;
-    padding: 18px; 46px;
+    padding: 18px 46px;
     margin-top: 40px;
 
 }
@@ -78,3 +79,56 @@ a{
     margin: 0 auto;
 
 }
+.about_us{
+    margin-top: 130px;
+    height: 330px;
+    background-color: #262543;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    color: white;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    padding-left: 270px;
+}
+.about_text{
+    margin: 0 auto;
+    margin-top: 55px;
+}
+.about_text h3{
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.about_text span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.info{
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+}
+.item>img{
+    width: 58px;
+    height: 58px;
+    margin-bottom: 25px;
+}
+.item{
+    position: relative;
+    top: 15%;
+}
+.item>h4{
+    font-size: 22px;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 15px;
+}
+.item>span{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
